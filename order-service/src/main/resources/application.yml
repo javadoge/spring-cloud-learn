@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: order-service
+eureka:
+  client:
+    service-url:
+     defaultZone: http://peer1:8761/eureka,http://peer2:8762/eureka
+  
+server:
+  port: 9090
+
+hystrix:
+  metrics:
+    enabled: true
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 8000

@@ -1,12 +1,25 @@
-#  spring-cloud-learn 各组件学习案例
-更多资料请浏览：www.javadoge.com
+#  spring-cloud-learn demo
 
-1、eureka高可用peer1服务：jv-eureka-server-peer1 </br>
-   
-   eureka高可用peer2服务：jv-eureka-server-peer2 </br>
-   
-   负载均衡用户服务：user-service-808*</br>
-   
-   订单服务：order-service</br>
-   
-   2018.01.15 update : 基于Edgware版本构建 </br>
+> last update：2018.01.18
+
+##### 一、Demo List：
+
+* eureka peer1：[jv-eureka-server-peer1 ](https://github.com/javadoge/spring-cloud-learn/tree/master/jv-eureka-server-peer1)
+
+* eureka peer2：[jv-eureka-server-peer2](https://github.com/javadoge/spring-cloud-learn/tree/master/jv-eureka-server-peer1) 
+
+* user service：user-service-808*
+
+* order service：[order-service](https://github.com/javadoge/spring-cloud-learn/tree/master/order-service)
+
+* config service：[config-server-8887](https://github.com/javadoge/spring-cloud-learn/tree/master/config-server-8887)
+
+
+
+
+
+
+_  
+  
+more about : www.javadoge.com
+_

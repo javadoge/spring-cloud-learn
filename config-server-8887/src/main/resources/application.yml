@@ -1,0 +1,19 @@
+spring: 
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/javadoge/cloud-config-repo.git
+          force-pull: true
+          timeout: 10
+          
+eureka:
+  client:
+    service-url:
+     defaultZone: http://peer1:8761/eureka,http://peer2:8762/eureka
+
+# 端口设置
+server:
+  port: 8887
